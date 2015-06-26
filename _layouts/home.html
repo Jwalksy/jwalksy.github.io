@@ -27,7 +27,7 @@
 
 
 {% if page.imagefeature %}
-    <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url}}/images/{{page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
+    <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url}}/images/background/{{page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
     <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
@@ -106,18 +106,21 @@
     <div class="container">
         <div class="row">
             <div class="page-body" itemprop="description">
-                <center><font size="10" color="lightgrey" style="font-family:verdana" >Welcome to Anna 's little corner ...</font></center>
+                <div class="cursive">
+                    <center><font color="#000000" size="7">Welcome to Anna 's little corner ...</font></center>
+                </div>
                 <br>
                 <br>
                 <figure>
-                    <a href="{{ site.url }}/images/home/city.jpg"><img src="{{ site.url }}/images/home/city.jpg"></a>
-                    <figcaption>Romantic Street at Night.</figcaption>
+                    <a href="{{ site.url }}/images/home/london.jpg"><img src="{{ site.url }}/images/home/london.jpg"></a>
+                    <figcaption>View from London.</figcaption>
                 </figure>
                 <br>
                 <figure class="third">
-                    <a href="{{ site.url }}/images/home/book.jpg"><img src="{{ site.url }}/images/home/book.jpg"></a>
+                    <a href="{{ site.url }}/images/home/downtownHouston.jpg"><img src="{{ site.url }}/images/home/downtownHouston.jpg"></a>
                     <a href="{{ site.url }}/images/home/me.jpg"><img src="{{ site.url }}/images/home/me.jpg"></a>
-                    <a href="{{ site.url }}/images/home/cafe.jpg"><img src="{{ site.url }}/images/home/cafe.jpg"></a>
+                    <a href="{{ site.url }}/images/gallery1/no11.jpeg"><img src="{{ site.url }}/images/gallery1/no11.jpeg"></a>
+                    <figcaption>My traces till now...</figcaption>
                 </figure>
             </div>    
         </div>
